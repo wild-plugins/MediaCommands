@@ -15,7 +15,7 @@ media:
 
 live:
   # Between prefix and name while /live is on
-  marker: "<red>● "
+  marker: "<red>● <reset>"
   "on": "<green>Live marker on. <gray>Your name now shows <red>●</red>. <white>/live</white> turns it off, leaving the server does too."
   "off": "<gray>Live marker off."
 
