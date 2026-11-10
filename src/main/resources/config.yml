@@ -1,0 +1,24 @@
+# MediaCommands - settings
+# Every chat text is in messages.yml. Apply changes with /mediacommands reload.
+
+media:
+  # Aliases of /media, need a restart
+  aliases: [ad]
+  # Seconds between two /media of one player, a restart resets it
+  cooldown: 1800
+  # Characters of the text
+  max-length: 150
+  # Sound for everyone online, "" = none
+  sound: block.note_block.chime
+  volume: 0.6
+  pitch: 1.4
+
+live:
+  # Put the marker in front of the name in chat (display name) and in the tab list.
+  # Chat and tab plugins can use %mediacommands_live% between prefix and name instead.
+  display-name: true
+  tab-list: true
+  # Sound for the player on /live, "" = none
+  sound: ui.button.click
+  volume: 0.5
+  pitch: 1.2

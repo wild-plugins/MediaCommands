@@ -1,0 +1,22 @@
+name: MediaCommands
+version: '${project.version}'
+main: de.justgino.plugins.mediacommands.MediaCommands
+description: '${project.description}'
+api-version: '26.1'
+folia-supported: true
+authors: [ JustGino ]
+softdepend: [ PlaceholderAPI ]
+
+permissions:
+  mediacommands.media:
+    description: /media <link> <text> posts a link to everyone
+    default: op
+  mediacommands.live:
+    description: /live shows a red dot in front of the name
+    default: op
+  mediacommands.bypass.cooldown:
+    description: /media without the cooldown
+    default: op
+  mediacommands.reload:
+    description: /mediacommands reload
+    default: op

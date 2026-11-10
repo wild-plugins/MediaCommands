@@ -1,0 +1,31 @@
+# MediaCommands - texts
+# Format: MiniMessage (https://docs.advntr.dev/minimessage/format.html), "" hides a message.
+
+prefix: "<bold><gradient:#c8f7dd:#4cc38a>ᴍᴇᴅɪᴀ</gradient></bold> <dark_gray>» <gray>"
+
+media:
+  # {open} = the button below, {player}, {text}
+  message: "<white>{player} {open} <light_purple>{text}"
+  open: "<dark_gray>[<#4cc38a><bold>ᴏᴘᴇɴ</bold></#4cc38a>]"
+  open-hover: "<light_purple>Open link<newline><gray>{link}<newline><dark_gray>by {player}"
+  usage: "<red>Usage: <white>/media <link> <text>"
+  invalid-link: "<red>That is not a valid link. <gray>It has to start with <white>https://"
+  too-long: "<red>The text can be at most <white>{max}</white> characters long."
+  cooldown: "<red>You can use /media again in <white>{time}</white>."
+
+live:
+  # Between prefix and name while /live is on
+  marker: "<red>● "
+  "on": "<green>Live marker on. <gray>Your name now shows <red>●</red>. <white>/live</white> turns it off, leaving the server does too."
+  "off": "<gray>Live marker off."
+
+time:
+  days: "{n}d"
+  hours: "{n}h"
+  minutes: "{n}m"
+  seconds: "{n}s"
+
+messages:
+  no-permission: "<red>You don't have permission to do that."
+  players-only: "<red>Only players can use this command."
+  reloaded: "Configuration and messages reloaded."
